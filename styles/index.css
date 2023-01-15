@@ -92,10 +92,10 @@ div img{
     color: white;
     font-weight: 700px;
 }
-button h1{
+.year{
     font-size: 35px;
 }
-button{
+.experience-btn{
     font-size: 20px;
 }
 /* feature content ends */
