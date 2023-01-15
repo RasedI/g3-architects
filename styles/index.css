@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Roboto:wght@500&family=Work+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Roboto:wght@500&family=Work+Sans:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif
+}
+.header{
+    background-color: rgba(255, 144, 14, 0.1);
+    padding-bottom: 50px;
+}
+.header-title{
+    padding: 20px 0px 0px 20px;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;  
+    margin-top: -50px;
+}
+ul li{
+    padding: 20px;  
+    float: left;
+}
+ul li a{
+    text-decoration: none; 
+    color: black; 
+}
+.header-paragraph-title{
+    margin: 20px;
+    text-align: center;
+}
+.header-paragraph{
+    margin: 20px;
+    text-align: center;
+}
+.header-btn{
+    margin: 0px 45% 20px 45%;
+    height: 35px;
+    width: 120px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700px;
+}
+div img{
+    height: 600px;
+    width: 1250px;
+    margin-left: 45px;
+    padding-bottom: 10px;
+}
+/* feature content starts */
+.feature-contents{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+.galary-images{
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap: 5px;
+    padding-left: 20px;
+}
+.galary-images img{
+    height: 300px;
+    width: 300px;
+}
+.feature-text{
+    margin-left: 40px;
+    padding: 80px;
+}
+.feature-heading{
+    font-size: 45px;
+}
+.quick{
+    color: #727272;
+    font-weight: 300;
+}
+.features{
+    color: #FF900E;
+}
+.feature-btn{
+    height: 35px;
+    width: 100px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700px;
+}
+/* feature content ends */
+
+/* exerience content starts */
+.container{
+    margin-top: 130px;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experience-paragraphs{
+    height: 580px;
+    width: 980px;
+    margin-top: -350px;
+    padding: 50px;
+}
+.experience-paragraphs div{
+display: flex;
+flex-direction: column;
+}
+.first-paragraphs{
+  margin-top: -50px;
+  margin-bottom: 60px;
+}
+.first-p-h{
+    padding-left: 5px;
+    font-size: 45px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900px;
+    color: #131313;
+    border-left: solid 3px #FF900E;
+}
+.first-paragraph{
+    padding-top: 20px;
+}
+.other-paragraphs{
+    width: 450px;
+    height: 150px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px whitesmoke;
+}
+.other-p-h{
+    padding-bottom: 10px;
+}
+.experience img{
+    width: 708px;
+    height: 982px;
+    border-radius: 8px;
+}
+.experience-btn{
+    margin: -80px 0px 0px 0px;
+    height: 120px;
+    width: 200px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700px;
+}
+/* experience content ends */
+.some-facts{
+    margin-left: 40px;
+    margin-bottom: 80px;
+}
+.some-facts-heading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+.some-facts-paragraphs{
+    margin-left: 60px;
+}
+.some-facts-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.smdivs{
+    border: solid 1px #FF900E;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+.smicons{
+    height: 35px;
+    width: 35px;
+    padding-top: 50px;
+    margin-left: auto;
+}
+.smicons-h{
+    text-align: center;
+    color: #424242;
+}
+.our-sponsors{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.sponsors-header{
+    text-align: center;
+    padding: 20px;
+}
+.sponsors-paragraph{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.sponsors-icons{
+    display: flex;
+    justify-content: space-around;
+}
+.icons img{
+    height: 35px;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-bottom: 100px;
+}
+
+footer{
+    height: 40px;
+    width: 1120px;
+    margin: 40px 100px;
+    background-color: #FFF4E7;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 25px;
+}
