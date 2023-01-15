@@ -7,6 +7,7 @@
     padding: 0px;
     font-family: 'Work Sans', sans-serif
 }
+/* header section here  */
 .header{
     background-color: rgba(255, 144, 14, 0.1);
     padding-bottom: 50px;
@@ -161,6 +162,8 @@ flex-direction: column;
     font-weight: 700px;
 }
 /* experience content ends */
+
+/* icons section starts */
 .some-facts{
     margin-left: 40px;
     margin-bottom: 80px;
@@ -200,6 +203,9 @@ flex-direction: column;
     text-align: center;
     color: #424242;
 }
+/* icon section ends  */
+
+/* sponsor section starts  */
 .our-sponsors{
     margin-top: 40px;
     margin-bottom: 20px;
@@ -223,7 +229,9 @@ flex-direction: column;
     margin-left: 0px;
     margin-bottom: 100px;
 }
+/* sponsor section ends  */
 
+/* footer section here  */
 footer{
     height: 40px;
     width: 1120px;
@@ -233,4 +241,13 @@ footer{
     border-radius: 5px;
     text-align: center;
     padding-top: 25px;
+}
+
+/* smaller device */
+@media screen and (max-width: 576px) {
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style: none;  
 }
