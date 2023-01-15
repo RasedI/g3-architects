@@ -92,6 +92,12 @@ div img{
     color: white;
     font-weight: 700px;
 }
+button h1{
+    font-size: 35px;
+}
+button{
+    font-size: 20px;
+}
 /* feature content ends */
 
 /* exerience content starts */
@@ -180,6 +186,9 @@ flex-direction: column;
     height: 200px;
     width: 200px;
     text-align: center;
+}
+.smdivs:hover{
+    transition: cursor: default; transform: rotate(360deg); transition: all 0.3s ease-in-out 1s;
 }
 .smicons{
     height: 35px;
